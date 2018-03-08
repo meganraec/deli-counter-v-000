@@ -3,7 +3,7 @@ def line(a)
     puts "The line is currently empty."
   else
     list = a.each_with_index {|name, i| puts "#{i + 1}. #{name}"}
-    puts "The line is currently: #{list.join}"
+    puts "The line is currently: #{%w(list.join)}"
   end
 end
 
