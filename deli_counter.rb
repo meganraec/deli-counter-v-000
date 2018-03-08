@@ -6,7 +6,7 @@ def line(a)
   if a.empty?
     puts "The line is currently empty."
   else
-    list = a.each_with_index(1) {|name, i| return "#{i}. #{name}"}
+    list = a.each_with_index(1) {|name, i| puts i + ". " + name}
     puts "The line is currently: #{list}"
   end
 end
