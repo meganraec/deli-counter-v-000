@@ -3,12 +3,11 @@ number = array.count
 
 def line(array)
   if array.length >= 1
-    puts "The line is currently #{yield(customer, index)}"
+    array.each {|customer, index|}
+    puts "The line is currently #{index + 1}. #{customer}"
   else puts "The line is currently empty."
   end
 end
-
-line(array) {|customer, index| puts "#{index + 1}. #{customer} "}
 
 # def take_a_number(array, name)
 #   if array.empty?
