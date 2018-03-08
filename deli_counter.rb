@@ -17,9 +17,9 @@ end
 # end
 # end
 
-def now_serving(a)
-  if a.empty?
-  puts "There is nobody waiting to be served!"
-else puts "Currently serving #{number}."
-end
-end
+# def now_serving(a)
+#   if a.empty?
+#   puts "There is nobody waiting to be served!"
+# else puts "Currently serving #{number}."
+# end
+# end
