@@ -11,8 +11,7 @@ end
 def take_a_number(a, name)
   a << name
   x = a.last
-  position = a.last[]
-  a.each_with_index {|x, i| puts }
+  y = a.count
   puts "Welcome, #{x}. You are number #{y} in line."
 end
 
