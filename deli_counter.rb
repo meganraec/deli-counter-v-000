@@ -4,8 +4,8 @@ def line(a)
   if a.empty?
     puts "The line is currently empty."
   else
-    a.each_with_index(1) {|name, i| return "#{i}. #{name}"}
-    puts "The line is currently: #{%w(a)}"
+    list = a.each_with_index(1) {|name, i| return "#{i}. #{name}"}
+    puts "The line is currently: #{list}"
   end
 end
 
