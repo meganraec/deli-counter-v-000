@@ -1,11 +1,11 @@
 katz_deli = []
 number = array.count
 
-def line(array)
-  if array.length >= 1
-    array.each {|customer, index|}
-    puts "The line is currently #{index + 1}. #{customer}"
-  else puts "The line is currently empty."
+def line(a)
+  if a.length == 0
+    puts "The line is currently empty."
+  else
+    puts "The line is currently #{%w(a)}"
   end
 end
 
