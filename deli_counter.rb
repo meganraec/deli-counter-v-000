@@ -1,5 +1,4 @@
 katz_deli = []
-number = array.count
 
 def line(a)
   if a.length == 0
