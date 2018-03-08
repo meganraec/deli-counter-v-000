@@ -8,17 +8,17 @@ def line(a)
   end
 end
 
-# def take_a_number(array, name)
-#   if array.empty?
-#   array.push(name)
-#   else array.push(name)
-#   puts "Welcome, #{name}. You are number #{number} in line."
-# end
-# end
+def take_a_number(a, name)
+  if a.empty?
+  a.push(name)
+  else ar.push(name)
+  puts "Welcome, #{name}. You are number #{number} in line."
+end
+end
 
-# def now_serving(a)
-#   if a.empty?
-#   puts "There is nobody waiting to be served!"
-# else puts "Currently serving #{number}."
-# end
-# end
+def now_serving(a)
+  if a.empty?
+  puts "There is nobody waiting to be served!"
+else puts "Currently serving #{number}."
+end
+end
