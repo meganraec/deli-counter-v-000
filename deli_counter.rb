@@ -6,7 +6,7 @@ def line(a)
   if a.empty?
     puts "The line is currently empty."
   else
-    puts "The line is currently: " %w[a].map.with_index {|w, i| "#{i + 1}: #{w}"}
+    puts "The line is currently: " %w[a].each_with_index {|w, i| "#{i + 1}: #{w}"}
   end
 end
 
