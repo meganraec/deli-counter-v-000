@@ -9,13 +9,11 @@ def line(a)
 end
 
 def take_a_number(a, name)
-  if a.empty?
   a << name
-  puts "Wecome, #{name}. You are number 1 in line."
-else a << name
-  a.each_with_index {|name, i| number = i + 1 }
-  puts "Welcome, #{name}. You are number #{number} in line."
-end
+  x = a.last
+  position = a.last[]
+  a.each_with_index {|x, i| puts }
+  puts "Welcome, #{x}. You are number #{y} in line."
 end
 
 def now_serving(a)
