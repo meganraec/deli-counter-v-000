@@ -8,15 +8,15 @@ def line(array)
   end
 end
 
-line(array) array.each {|customer, index| puts "#{index + 1}. #{customer} "}
+line(array) {|customer, index| puts "#{index + 1}. #{customer} "}
 
-def take_a_number(array, name)
-  if array.empty?
-  array.push(name)
-  else array.push(name)
-  puts "Welcome, #{name}. You are number #{number} in line."
-end
-end
+# def take_a_number(array, name)
+#   if array.empty?
+#   array.push(name)
+#   else array.push(name)
+#   puts "Welcome, #{name}. You are number #{number} in line."
+# end
+# end
 
 # def now_serving(array)
 #   if array.empty?
