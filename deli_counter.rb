@@ -10,8 +10,8 @@ end
 
 def take_a_number(a, name)
   if a.empty?
-  a.push(name)
-  else ar.push(name)
+  a << name
+  else a.push(name)
   puts "Welcome, #{name}. You are number #{number} in line."
 end
 end
