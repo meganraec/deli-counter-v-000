@@ -2,7 +2,8 @@ def line(a)
   if a.empty?
     puts "The line is currently empty."
   else
-    list = a.each_with_index {|name, i| puts "#{i + 1}. #{name}"}
+    list = []
+    a.each_with_index {|name, i| list << "#{i + 1}. #{name}"
     puts "The line is currently: #{%w(list.join)}"
   end
 end
