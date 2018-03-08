@@ -4,6 +4,7 @@ def line(a)
   if a.empty?
     puts "The line is currently empty."
   else
+    a.each_with_index(1) {|name, i| "#{i}. #{name}"}
     puts "The line is currently #{%w(a.join)}"
   end
 end
