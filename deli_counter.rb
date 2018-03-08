@@ -18,6 +18,6 @@ end
 def now_serving(a)
   if a.empty?
   puts "There is nobody waiting to be served!"
-  else puts "Currently serving #{a.count}."
+else puts "Currently serving #{a[0]}."
 end
 end
