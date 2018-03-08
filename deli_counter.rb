@@ -4,7 +4,7 @@ def line(a)
   else
     list = []
     a.each_with_index {|name, i| list << "#{i + 1}. #{name}"}
-    puts "The line is currently: #{%w(list.join)}"
+    puts "The line is currently: #{list.join)}"
   end
 end
 
