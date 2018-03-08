@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(a)
-  if a.length == 0
+  if a.empty?
     puts "The line is currently empty."
   else
     puts "The line is currently #{%w(a)}"
@@ -16,9 +16,9 @@ end
 # end
 # end
 
-# def now_serving(array)
-#   if array.empty?
-#   puts "There is nobody waiting to be served!"
-# else puts "Currently serving #{number}."
-# end
-# end
+def now_serving(a)
+  if a.empty?
+  puts "There is nobody waiting to be served!"
+else puts "Currently serving #{number}."
+end
+end
