@@ -20,5 +20,5 @@ def now_serving(a)
   puts "There is nobody waiting to be served!"
   else puts "Currently serving #{a[0]}."
 end
-a.unshift
+a.shift
 end
