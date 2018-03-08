@@ -4,7 +4,7 @@ def line(a)
   if a.empty?
     puts "The line is currently empty."
   else
-    puts "The line is currently #{%w(a)}"
+    puts "The line is currently #{%w(a.join)}"
   end
 end
 
